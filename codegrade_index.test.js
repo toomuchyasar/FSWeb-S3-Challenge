@@ -111,7 +111,7 @@ describe('index.html', () => {
         expect(getByText(footerNavLinks, /Menü/i)).toBeInTheDocument();
         expect(getByText(footerNavLinks, /Rezervasyonlar/i)).toBeInTheDocument();
         expect(getByText(footerNavLinks, /Özel Teklifler/i)).toBeInTheDocument();
-        expect(getByText(footerNavLinks, /Contact/i)).toBeInTheDocument();
+        expect(getByText(footerNavLinks, /İletişim/i)).toBeInTheDocument();
     });
 
     it('footerdaki Menü doğru sayfaya linklendirilmiş', async () => {
